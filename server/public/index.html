@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vendors/jquery-3.5.1.min.js"></script>
+    <script src="./scripts/client.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>to-do list</title>
+</head>
+
+<body>
+    <h1>to-do list</h1>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="newTask" placeholder="add a new task!">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="submitBtn">submit</button>
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>task</th>
+                <th>complete?</th>
+                <th>delete</th>
+            </tr>
+        <tbody id="todoList">
+
+        </tbody>
+        </thead>
+    </table>
+</body>
+
+</html>

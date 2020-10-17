@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+   width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.table{
+    margin: auto;
+    width: 80%
+}
+.input-group{
+    width: 50%;
+    margin: auto;
+}
